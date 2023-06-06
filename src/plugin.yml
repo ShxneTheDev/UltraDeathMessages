@@ -1,0 +1,16 @@
+name: UltraDeathMessages
+version: 1.0
+author: ShaneDev
+main: com.shanedev.ultradeathmessages.UltraDeathMessages
+api-version: 1.8
+loadbefore:
+  - essentials.jar
+  - essentials
+commands:
+  udmreload:
+    description: Reloads the config.yml
+    usage: /<command>
+  udm:
+    description: Shows plugin info in-game.
+    usage: /<command>
+    aliases: [deathmessages, ultradeathmessages]
